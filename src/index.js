@@ -23,6 +23,6 @@ app.listen(app.get('port'), () => {
 })
 
 //connection to database
-mongoose.connect('mongodb://localhost:27017/nevm', { useNewUrlParser: true })
+mongoose.connect('mongodb://daffing:1q2w3e@ds145194.mlab.com:45194/mevn-task-db', { useNewUrlParser: true })
     .then(() => console.log('Database connected successfully'))
     .catch(err => console.error(err))
